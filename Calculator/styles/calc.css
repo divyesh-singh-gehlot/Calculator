@@ -27,8 +27,9 @@
 }
 .screen{
     height: 25vh;
+    padding-left: 2vw;
 }
-p{
+.output-screen{
     margin-top: 3vh;
     border: none;
     height:10vh;
@@ -38,7 +39,7 @@ p{
     background-color: transparent;
     color: #fc9e0a;
 }
-h1{
+.answer-screen{
     border: none;
     height:15vh;
     width:25vw;
@@ -149,4 +150,82 @@ h1{
 
 .dark-mode-color-buttons{
     color: white;
+}
+
+
+
+
+/* Responsive design */
+
+@media screen and (max-width:1100px) {
+    .calculator{
+        height:80vh;
+        width:28vw;
+    }
+}
+@media screen and (max-width:1100px) {
+    .calculator{
+        width:50vw;
+    }
+    .row{
+        width:50vw;
+        margin-left: -11vw;
+    }
+    .row button{
+        height:7vh;
+        width:7vh;
+    }
+    .row-last{
+        width:50vw;
+        margin-left: -10vw;
+    }
+    .special-button{
+        height:7vh;
+        width:7vh;
+        border:none;
+        border-radius:4.5vh;
+    }
+    .clear-button{
+        height: 7vh;
+        width: 18vw;
+        font-size: 3vh;
+        box-shadow: 0.2vh 0.1vw rgba(0, 0, 0, 0.3);
+    }
+    .equal-button{
+        height: 7vh;
+        width:7vh;
+    }
+    .output-screen{
+        font-size:4vh;
+    }
+    .answer-screen{
+        font-size: 7vh;
+    }
+}
+@media screen and (max-width:667px) {
+    .calculator{
+        width:70vw;
+    }
+    .row{
+        width:70vw;
+        margin-left: -22vw;
+    }
+    .row-last{
+        width:70vw;
+        margin-left: -21vw;
+    }
+    .clear-button{
+        width: 25vw;
+        font-size: 3vh;
+        box-shadow: 0.2vh 0.1vw rgba(0, 0, 0, 0.3);
+    }
+    .output-screen{
+        font-size:4vh;
+        width: 70vw;
+    }
+    .answer-screen{
+        margin-top: -5vh;
+        font-size: 7vh;
+        width: 70vw;
+    }
 }

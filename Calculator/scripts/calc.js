@@ -23,13 +23,13 @@ function printCharacter(character){
 
 function displayCalculation(){
     document.querySelector('.output-screen')
-        .innerHTML = calculation;
+        .value = calculation;
 }
 
 function cleanInput(){
     calculation = '0';
     document.querySelector('.answer-screen')
-        .innerHTML = '';
+        .value = '';
         displayCalculation();
         localStorage.setItem('calculation', calculation);
 }
@@ -70,5 +70,5 @@ function changeTheme(){
 function giveResult(){
     calculation=eval(calculation);
     document.querySelector('.answer-screen')
-        .innerHTML = calculation;
+        .value = calculation;
 }
