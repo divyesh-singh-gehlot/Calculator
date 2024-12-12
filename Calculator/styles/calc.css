@@ -74,6 +74,7 @@
     border-radius:4.5vh;
     font-size: 3vh;
     box-shadow: 0.2vh 0.1vw rgba(0, 0, 0, 0.3);
+    cursor:pointer;
 }
 
 .row-last{
@@ -83,6 +84,7 @@
     margin-left: 1vw;
     margin-bottom: 1vh;
     color: #222431;
+    cursor:pointer;
 }
 
 .clear-button{
@@ -94,6 +96,7 @@
     width: 11vw;
     font-size: 3vh;
     box-shadow: 0.2vh 0.1vw rgba(0, 0, 0, 0.3);
+    cursor:pointer;
 }
 
 .normal-buttons{
@@ -114,7 +117,7 @@
 .theme-button{
     margin-left: -1vw;
     box-shadow: 0.2vh 0.1vw rgba(0, 0, 0, 0.3);
-
+    cursor:pointer;
 }
 
 .theme-button img{
@@ -129,7 +132,7 @@
     border-radius: 4.5vh;
     font-size: 3vh;
     box-shadow: 0.2vh 0.1vw rgba(0, 0, 0, 0.3);
-    
+    cursor:pointer;
 }
 
 
